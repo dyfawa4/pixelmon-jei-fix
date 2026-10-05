@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[36,37)"
+license="MIT"
+
+[[mods]]
+modId="pixelmon_jei_fix"
+version="1.0.0"
+displayName="Pixelmon JEI Connection Fix"
+description='''Restores JEI server detection using negotiated channel metadata after the Pixelmon 9.1.12/9.1.13 handshake replacement.'''
+
+[[dependencies.pixelmon_jei_fix]]
+modId="forge"
+mandatory=true
+versionRange="[36.2,37)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.pixelmon_jei_fix]]
+modId="pixelmon"
+mandatory=true
+versionRange="[9.1.12,9.1.14)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.pixelmon_jei_fix]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.pixelmon_jei_fix]]
+modId="jei"
+mandatory=true
+versionRange="[7.8.1.1018]"
+ordering="AFTER"
+side="CLIENT"

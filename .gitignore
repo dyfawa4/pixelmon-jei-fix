@@ -1,0 +1,6 @@
+classes/
+build/
+dist/
+backups/
+*.jar
+*.log
